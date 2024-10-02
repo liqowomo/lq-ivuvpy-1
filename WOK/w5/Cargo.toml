@@ -1,0 +1,8 @@
+[package]
+name = "w5"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+comfy-table = "7.1.1"
+yansi = "1.0.1"
