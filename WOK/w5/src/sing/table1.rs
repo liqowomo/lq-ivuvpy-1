@@ -1,9 +1,7 @@
-extern crate yansi;
-use yansi::Paint as _;
-extern crate comfy_table;
-use comfy_table::*;
+use comfy_table::Table;
 
-pub fn table() {
+pub fn tabu1() {
+    let mut table = Table::new();
     table
         .set_header(vec!["Header1", "Header2", "Header3"])
         .add_row(vec![
