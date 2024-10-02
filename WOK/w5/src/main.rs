@@ -1,5 +1,6 @@
 mod sing;
 
+use sing::table1::*;
 use sing::verse1::*;
 use sing::verse2::*;
 
